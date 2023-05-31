@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
   font-family: "GraphikRegular";
-  src: url("css/fonts/GraphikRegular.otf");
+  src: url("GraphikRegular.otf");
 }
 @font-face {
   font-family: "GraphikBold";
-  src: url("css/fonts/GraphikBold.otf");
+  src: url("GraphikBold.otf");
 }
 
 #myVideo {
