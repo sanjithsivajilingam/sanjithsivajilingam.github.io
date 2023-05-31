@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
-  font-family: "GraphikRegular";
-  src: url("GraphikRegular.otf");
+  font-family: 'Graphik';
+  src: url('/fonts/Graphik-Regular.woff2') format('woff2'),
+      url('/fonts/Graphik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
-  font-family: "GraphikBold";
-  src: url("GraphikBold.otf");
+  font-family: 'Graphik';
+  src: url('/fonts/Graphik-Bold.woff2') format('woff2'),
+      url('/fonts/Graphik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
 #myVideo {
   position: fixed;
   right: 0;
@@ -310,7 +317,8 @@ li, a, button {
 }
 
 .logotext{
-  font-family: "GraphikBold";
+  font-family: "Graphik";
+  font-weight: bold;
   color: #ffffff;
   font-size: 3rem;
   position: relative;
