@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @font-face {
   font-family: 'Graphik';
-  src: url('/fonts/Graphik-Regular.woff2') format('woff2'),
-      url('/fonts/Graphik-Regular.woff') format('woff');
+  src: url('Graphik-Regular.woff2') format('woff2'),
+      url('Graphik-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Graphik';
-  src: url('/fonts/Graphik-Bold.woff2') format('woff2'),
-      url('/fonts/Graphik-Bold.woff') format('woff');
+  src: url('Graphik-Bold.woff2') format('woff2'),
+      url('Graphik-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
